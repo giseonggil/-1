@@ -3,22 +3,60 @@
   <title>Travelus</title>
   <meta charset="utf-8">
   <style>
+    body{
+      margin:0;
+    }
     a {
       color:black;
+      font-size: 20px;
       text-decoration: none;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 80px;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 2px;
+    }
+    h3 {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 2px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      padding: 3px;
+      border-bottom: 1px solid black;
+    }
+    ol {
+      margin-top: 0px;
+      border-right: 1px solid black;
+      width: 180px;
+      padding: 20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 250px 1fr;
+    }
     }
   </style>
 </head>
 
 <body>
-  <h1>Around The World</h1>
-  <ol>
-    <li><a href="travelus_home.html" style="color:orange">Home</a></li>
-    <li><a href="travelus_plan.html">Travel Plan</a></li>
-    <li><a href="travelus_records.html">Travel Records</a></li>
-  </ol>
-  <img src="world.jpg" width="100%">
-  <h2>Welcome to my webpage.<br>
-  This webpage exists only for my travel record.</h2>
+  <h1>Travelus</h1>
+  <h3>Around The World</h3>
+  <div id="grid">
+    <ol>
+      <li><a href="travelus_home.html" style="color:orange">Home</a></li>
+      <li><a href="travelus_plan.html">Travel Plan</a></li>
+      <li><a href="travelus_records.html">Travel Records</a></li>
+    </ol>
+    <div>
+        <img src="world.jpg" width="90%">
+        <p>
+          Welcome to my webpage.<br>
+          This webpage exists only for my travel record.
+        </p>
+    </div>
+  </div>
   <p style="margin-top:40px;">An introduction to mechanics of solids</p>
 </body>
